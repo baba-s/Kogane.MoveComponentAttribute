@@ -1,0 +1,18 @@
+{
+    "name": "Kogane.MoveComponentAttribute.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:a6f016225a3cc5042aee4cd28616014e"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
