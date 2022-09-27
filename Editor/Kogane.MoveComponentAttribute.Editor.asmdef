@@ -2,7 +2,8 @@
     "name": "Kogane.MoveComponentAttribute.Editor",
     "rootNamespace": "",
     "references": [
-        "GUID:a6f016225a3cc5042aee4cd28616014e"
+        "GUID:a6f016225a3cc5042aee4cd28616014e",
+        "GUID:c13ec74744a798b44b7f48850f3f53bd"
     ],
     "includePlatforms": [
         "Editor"

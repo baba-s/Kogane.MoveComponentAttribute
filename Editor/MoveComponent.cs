@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Linq;
 using System.Reflection;
 using UnityEditor;
@@ -104,7 +104,7 @@ namespace Kogane.Internal
             if ( attribute == null ) return;
 
             var components = monoBehaviour.GetComponents<Component>();
-            var component  = Array.Find( components, x => x.GetType() == attribute.Type );
+            var component  = Array.Find( components, x => x.GetType().IsInherits( attribute.Type ) );
 
             if ( component == null ) return;
 
@@ -135,7 +135,7 @@ namespace Kogane.Internal
             if ( attribute == null ) return;
 
             var components = monoBehaviour.GetComponents<Component>();
-            var component  = Array.Find( components, x => x.GetType() == attribute.Type );
+            var component  = Array.Find( components, x => x.GetType().IsInherits( attribute.Type ) );
 
             if ( component == null ) return;
 
